@@ -113,7 +113,7 @@ export default function App() {
       {currentPage === 'store' ? (
         <main className="flex-1 pb-16">
           {/* Stunning Premium Hero Section - Updated for Light theme */}
-          <section className="relative overflow-hidden py-12 px-4 sm:px-6 lg:px-8 border-b border-gray-200 bg-gradient-to-b from-indigo-50/40 via-slate-50/20 to-transparent">
+          <section className="relative overflow-hidden py-12 px-4 sm:px-6 lg:px-8 border-b border-gray-200 bg-linear-to-b from-indigo-50/40 via-slate-50/20 to-transparent">
             {/* Absolute Decorative Glows */}
             <div className="absolute top-1/2 left-1/4 -translate-y-1/2 w-80 h-80 bg-indigo-500/5 rounded-full blur-[100px] pointer-events-none" />
             <div className="absolute top-1/3 right-1/4 -translate-y-1/2 w-96 h-96 bg-violet-600/5 rounded-full blur-[120px] pointer-events-none" />
@@ -126,7 +126,7 @@ export default function App() {
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
                 Discover the Next Generation of <br />
-                <span className="bg-gradient-to-r from-indigo-600 via-violet-600 to-pink-600 bg-clip-text text-transparent">
+                <span className="bg-linear-to-r from-indigo-600 via-violet-600 to-pink-600 bg-clip-text text-transparent">
                   Premium Quality Essentials
                 </span>
               </h1>
@@ -229,7 +229,7 @@ export default function App() {
         </main>
       ) : (
         /* Checkout page */
-        <main className="flex-grow">
+        <main className="grow">
           <CheckoutPage
             onBackToShop={() => setCurrentPage('store')}
             onShowToast={showToast}
@@ -239,8 +239,8 @@ export default function App() {
 
       {/* Footer */}
       <footer className="border-t border-gray-200 py-8 bg-gray-50 text-center text-xs text-gray-500 space-y-2">
-        <p className="font-bold text-gray-700">ApexStore Premium React Client Demo</p>
-        <p>© 2026 ApexStore Inc. Powered by Vite, React 19, Redux Toolkit & Tailwind CSS v4.</p>
+        <p className="font-bold text-gray-700">ApeStore Premium React Client Demo</p>
+        <p>© 2026 ApeStore Inc. Powered by Vite, React 19, Redux Toolkit & Tailwind CSS v4.</p>
       </footer>
 
       {/* Cart Slider Drawer */}

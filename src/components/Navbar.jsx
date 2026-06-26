@@ -35,7 +35,7 @@ export default function Navbar({
               A
             </div>
             <span className="text-lg font-black tracking-tight bg-linear-to-r from-indigo-600 via-violet-600 to-pink-600 bg-clip-text text-transparent group-hover:opacity-90 transition-opacity">
-              ApexStore
+              ApeStore
             </span>
           </div>
 
