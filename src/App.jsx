@@ -119,11 +119,6 @@ export default function App() {
             <div className="absolute top-1/3 right-1/4 -translate-y-1/2 w-96 h-96 bg-violet-600/5 rounded-full blur-[120px] pointer-events-none" />
 
             <div className="max-w-7xl mx-auto relative text-center space-y-6">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-bold rounded-full bg-indigo-50 text-indigo-600 border border-indigo-100 animate-pulse">
-                <Sparkles className="w-3.5 h-3.5" />
-                <span>Summer Sale: Free Global Shipping Enabled</span>
-              </div>
-
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
                 Discover the Next Generation of <br />
                 <span className="bg-linear-to-r from-indigo-600 via-violet-600 to-pink-600 bg-clip-text text-transparent">
@@ -146,10 +141,6 @@ export default function App() {
                   Explore Collection
                   <ArrowRight className="w-3.5 h-3.5" />
                 </button>
-                <div className="hidden sm:flex items-center gap-2 px-5 py-3 rounded-xl border border-gray-200 text-xs font-semibold text-gray-600 bg-white shadow-sm">
-                  <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                  Secure 256-bit Checkout
-                </div>
               </div>
             </div>
           </section>
