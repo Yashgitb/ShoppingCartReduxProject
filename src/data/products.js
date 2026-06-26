@@ -67,7 +67,7 @@ export const products = [
     category: "Fashion",
     rating: 4.4,
     reviewsCount: 210,
-    image: "https://images.unsplash.com/photo-1627124718515-47f9ce13cc6a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrhpAuC2g1jIq1K3Sdo3mnjeg3dfKcjJH-xg&shttps://images.unsplash.com/photo-1627124718515-47f9ce13cc6a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3",
     stock: 50,
     featured: false
   },
